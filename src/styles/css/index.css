@@ -1,0 +1,5 @@
+@import "header.css"; /*Импортируем стили*/
+
+.title {
+  color: plum;
+}
