@@ -19,12 +19,12 @@ module.exports = {
   },
   devServer: {
     contentBase: path.resolve(__dirname, 'dist'),
-    port: 4200
+    port: 8000
   },
 	plugins: [
 		new HtmlWebpackPlugin({
 			filename: 'index.html',
-			template: './src/index.html'
+			template: './src/index.pug'
 		}),
 		new MiniCssExtractPlugin({
 			filename: 'style.css'
@@ -48,6 +48,13 @@ module.exports = {
         test: /\.js$/,
         exclude: /node_modules/,
         loader: "babel-loader"
+      },
+      {
+        test: /\.pug$/,
+        loader: "pug-loader",
+        options: {
+          pretty: true
+        }
       }
 		]
 	}

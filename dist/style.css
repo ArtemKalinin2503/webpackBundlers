@@ -1,1 +1,15 @@
-header{border:2px solid green}.title{color:plum}
+header {
+  border: 2px solid green;
+}
+/*Импортируем стили*/
+
+.title {
+  color: plum;
+}
+.title__less {
+  color: yellow;
+}
+
+.title__sass {
+  color: pink; }
+
