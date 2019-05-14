@@ -6,6 +6,7 @@
 - Работа со стилями (Css, Less, Sass)
 - Babel
 - Webpack dev-server (локальный сервер)
+- PUG
 
 !Если проблема с node-sass:
 sudo npm install --save-dev  --unsafe-perm node-sass
