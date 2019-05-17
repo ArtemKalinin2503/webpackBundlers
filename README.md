@@ -7,6 +7,9 @@
 - Babel
 - Webpack dev-server (локальный сервер)
 - PUG
+- Подключение картинок и шрифтов
+
+!Чтобы картинки и шрифты попали в папку dist необходимо выполнить команду npm run dev
 
 !Если проблема с node-sass:
 sudo npm install --save-dev  --unsafe-perm node-sass
