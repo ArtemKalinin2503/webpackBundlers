@@ -105,19 +105,19 @@ eval("var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/*!\n * jQ
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _modules_slider_index__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./modules/slider.index */ \"./src/modules/slider.index.js\");\n/* harmony import */ var _styles_css_index_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./styles/css/index.css */ \"./src/styles/css/index.css\");\n/* harmony import */ var _styles_css_index_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_styles_css_index_css__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _styles_less_index_less__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./styles/less/index.less */ \"./src/styles/less/index.less\");\n/* harmony import */ var _styles_less_index_less__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_styles_less_index_less__WEBPACK_IMPORTED_MODULE_2__);\n/* harmony import */ var _styles_sass_index_sass__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./styles/sass/index.sass */ \"./src/styles/sass/index.sass\");\n/* harmony import */ var _styles_sass_index_sass__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_styles_sass_index_sass__WEBPACK_IMPORTED_MODULE_3__);\n //Экспорт кода из файла modules/slider.index.js\n\n //Подключаем стили css\n\n //Подключаем стили less\n\n //Подключаем стили sass\n\n//# sourceURL=webpack:///./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _modules_main__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./modules/main */ \"./src/modules/main.js\");\n/* harmony import */ var _styles_css_index_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./styles/css/index.css */ \"./src/styles/css/index.css\");\n/* harmony import */ var _styles_css_index_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_styles_css_index_css__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _styles_less_index_less__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./styles/less/index.less */ \"./src/styles/less/index.less\");\n/* harmony import */ var _styles_less_index_less__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_styles_less_index_less__WEBPACK_IMPORTED_MODULE_2__);\n/* harmony import */ var _styles_sass_index_sass__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./styles/sass/index.sass */ \"./src/styles/sass/index.sass\");\n/* harmony import */ var _styles_sass_index_sass__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_styles_sass_index_sass__WEBPACK_IMPORTED_MODULE_3__);\n //Экспорт кода из файла modules/main.js\n\n //Подключаем стили css\n\n //Подключаем стили less\n\n //Подключаем стили sass\n\n//# sourceURL=webpack:///./src/index.js?");
 
 /***/ }),
 
-/***/ "./src/modules/slider.index.js":
-/*!*************************************!*\
-  !*** ./src/modules/slider.index.js ***!
-  \*************************************/
+/***/ "./src/modules/main.js":
+/*!*****************************!*\
+  !*** ./src/modules/main.js ***!
+  \*****************************/
 /*! no exports provided */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var jquery__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! jquery */ \"./node_modules/jquery/dist/jquery.js\");\n/* harmony import */ var jquery__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(jquery__WEBPACK_IMPORTED_MODULE_0__);\n //Подключаем JQ\n\nvar test = \"hello\";\nconsole.log(test);\nvar header = jquery__WEBPACK_IMPORTED_MODULE_0___default()('header'); // header.html('тест подключения JQ...')\n\n//# sourceURL=webpack:///./src/modules/slider.index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var jquery__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! jquery */ \"./node_modules/jquery/dist/jquery.js\");\n/* harmony import */ var jquery__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(jquery__WEBPACK_IMPORTED_MODULE_0__);\n //Подключаем JQ\n\nvar test = \"hello\";\nconsole.log(test);\nvar header = jquery__WEBPACK_IMPORTED_MODULE_0___default()('header'); // header.html('тест подключения JQ...')\n\n//# sourceURL=webpack:///./src/modules/main.js?");
 
 /***/ }),
 
@@ -137,9 +137,9 @@ eval("// extracted by mini-css-extract-plugin\n\n//# sourceURL=webpack:///./src/
   !*** ./src/styles/less/index.less ***!
   \************************************/
 /*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
+/***/ (function(module, exports) {
 
-eval("// extracted by mini-css-extract-plugin\n\n//# sourceURL=webpack:///./src/styles/less/index.less?");
+eval("\n\n//# sourceURL=webpack:///./src/styles/less/index.less?");
 
 /***/ }),
 
